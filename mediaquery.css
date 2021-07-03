@@ -1,95 +1,16 @@
-/* atur ulang margin dan padding agar tidak 
-menggunakan style bawaan dari browser  */
-*{
-	margin:0;
-	padding:0;
-	font-family:calibri, ‚segoe ui, arial, tahoma, sans-serif;
-}
-/* background dari desain web berwarna abu-abu */
-body{
-	background-color:#DDDDDD;
-}
+@media screen and (max-width: 960px){
+	.header{
+		position: inherit;
+	}
+	.wrapper{
+		width : 93.75%;
+		margin: 0 auto;
+	}
 
-#wrapper{
-	width : 780px;
-	margin: 0 auto; /* auto menyebabkan rata tengah */
-	overflow: hidden; /* krn element child ada yg 
-						make floating */
-}
 
-#header{
-	background: url(images/header.jpg) repeat-x #555;
-	height : 70px;	
-	padding:5px;
-	margin : 20px 0;
-	overflow : hidden;
-	border-radius: 10px;	
-}
-#header img{ margin-left:20px; width:40px; }
 
-#menu-utama{
-	margin-top:3px;
-	list-style:none;
 }
-
-#menu-utama li{
-	float:left;
-	padding:8px 20px;
-	border-right:1px solid #555555;
-}
-
-#menu-utama li a{
-	color : #ffffff;
-	text-decoration:none;
-}
-
-#header form{
-	float:right;
-	margin-top:-10px;
-	margin-right: 10px;
-}
-
-.txtsearch{
-	border:none;
-	height:20px;
-}
-
-#daftar-artikel{
-	width:470px;
-	float:left;
-}
-.artikel{
-	background:#ffffff;
-	padding:10px;
-	margin-bottom:20px;
-	overflow:hidden;
-}
-.artikel img{
-	float:left;
-	margin-right:10px;
-	width:200px;
-	height:165px
-}
-
-.artikel b{
-	color:#616060;
-	background:#DDDDDD;
-	padding:3px;
-	font-size:12px;
-	font-weight:bold;
-	margin-right:10px;
-}
-
-.artikel p{
-	margin:10px 0;
-}
-
-.artikel a{
-	display:block;
-	text-align:right;
-	color:#636363;
-}
-
+===
 #sidebar{
 	width:270px;
 	float:right;
